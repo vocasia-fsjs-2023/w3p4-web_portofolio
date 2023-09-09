@@ -1,0 +1,165 @@
+/* Reset style for default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0070a2;
+  color: #00ac97;
+}
+
+/* Header styles */
+/* Header styles */
+.header {
+  background-color: #0070a2;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  position: sticky; /* Membuat header menjadi sticky */
+  top: 0; /* Tetapkan posisi atas ke 0 */
+  z-index: 100; /* Atur indeks z agar header tetap di atas elemen lain */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease; /* Tambahkan efek transisi untuk warna teks */
+  color: #00ac97; /* Warna teks hijau */
+}
+
+/* Hover effect for .container */
+.container:hover {
+  background-color: #0070a2; /* Ketika dihover, latar belakang berubah menjadi biru */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ketika dihover, bayangan sedikit lebih tebal */
+  color: #fff; /* Ketika dihover, warna teks berubah menjadi putih */
+}
+
+/* Section styles */
+.section {
+  margin-bottom: 20px;
+}
+
+/* Section titles */
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Section content */
+.section-content {
+  font-size: 18px;
+  color: #000; /* Ubah warna teks pada elemen <p> menjadi hitam (#000) */
+}
+
+/* Section list styles */
+.section-list {
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+/* Footer styles */
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #0070a2;
+  color: #fff;
+  font-size: 14px;
+}
+
+/* ... CSS sebelumnya ... */
+
+/* Timeline styles */
+.timeline {
+  border-left: 2px solid #3498db;
+  position: relative;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 30px;
+  padding-left: 40px;
+}
+
+.timeline-icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #3498db;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+  color: #fff;
+}
+
+/* Font Awesome icons */
+.timeline-icon i {
+  font-size: 14px;
+}
+
+.timeline-content h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.timeline-content p {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #000;
+}
+
+/* ... CSS sebelumnya ... */
+
+/* Contact Footer styles */
+.contact-footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #fff; /* Ganti warna latar belakang menjadi putih */
+  color: #000; /* Ganti warna teks menjadi hitam */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Contact Column styles */
+.contact-column {
+  flex: 1;
+  text-align: center; /* Posisikan konten di tengah */
+  padding: 20px;
+}
+
+/* Judul styles */
+.contact-title {
+  font-weight: bold;
+  color: #00ac97;
+}
+
+/* Konten styles */
+.contact-content {
+  color: #000; /* Ganti warna teks menjadi hitam */
+}
+
+/* Tautan styles */
+.contact-link {
+  color: #000; /* Ganti warna tautan menjadi hitam */
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+}
