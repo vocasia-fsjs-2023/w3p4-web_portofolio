@@ -1,0 +1,265 @@
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+:root {
+    --font-dm-sans: "DM Sans";
+    --font-inter: Inter;
+    --font-inherit: inherit;
+    --font-size-3xl: 22px;
+    --font-size-xl: 20px;
+    --main-black: #181717;
+    --main-gray: #606060;
+    --padding-8xl: 27px;
+}
+
+.nama {
+    position: absolute;
+    top: 10px;
+    left: calc(50% - 560px);
+    letter-spacing: -0.03em;
+    line-height: 97.2%;
+    font-weight: 500;
+    display: inline-block;
+    width: 580px;
+    height: 208px;
+}
+
+.domisily,
+.summary {
+    position: absolute;
+    left: calc(50% - 560px);
+    letter-spacing: -0.03em;
+}
+
+.domisily {
+    top: 166px;
+    font-size: 27px;
+    line-height: 97.2%;
+    font-weight: 500;
+}
+
+.summary {
+    top: 291px;
+    font-size: 32px;
+    line-height: 117%;
+    color: var(--main-gray);
+    display: inline-block;
+    width: 575px;
+    height: 299px;
+}
+
+.foto-icon {
+    top: 0;
+    left: calc(50% + 139px);
+    width: 421px;
+    height: 590px;
+    object-fit: cover;
+}
+
+.foto-icon,
+.main,
+.tentang {
+    position: absolute;
+}
+
+.tentang {
+    top: 0;
+    left: 0;
+    width: 1120px;
+    height: 590px;
+    text-align: left;
+    font-size: 60px;
+    color: var(--main-black);
+    font-family: var(--navigation);
+}
+
+.main {
+    top: 80px;
+    left: calc(50% - 567px);
+    width: 1135px;
+    height: 1487px;
+}
+
+.portofolio {
+    position: relative;
+    background-color: #f3f3f3;
+    width: 100%;
+    height: 1591px;
+    overflow: hidden;
+}
+
+.judul {
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 359px);
+    letter-spacing: -0.03em;
+    line-height: 121.5%;
+}
+
+.list-job {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.detail-job1 {
+    font-size: 20px;
+    margin: 0;
+    padding-left: var(--padding-8xl);
+}
+
+.job,
+.pbl {
+    font-size: 20px;
+    position: absolute;
+    left: calc(50% - 339px);
+    letter-spacing: -0.03em;
+    line-height: 121.5%;
+}
+
+.job {
+    top: 64px;
+    font-size: var(--font-inherit);
+    font-family: var(--font-inherit);
+    display: inline-block;
+    width: 698px;
+}
+
+.pbl {
+    top: 32px;
+}
+
+.experience {
+    position: absolute;
+    top: 294px;
+    left: 0;
+    width: 718px;
+    height: 228px;
+}
+
+.job1,
+.judul1 {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 359px);
+    letter-spacing: -0.03em;
+    line-height: 121.5%;
+    display: inline-block;
+    width: 917px;
+}
+
+.job1 {
+    top: 64px;
+    left: calc(50% - 338px);
+    font-size: var(--font-inherit);
+    font-family: var(--font-inherit);
+    width: 698px;
+}
+
+.experience1 {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    width: 718px;
+    height: 174px;
+}
+
+.work {
+    position: absolute;
+    top: 3px;
+    left: calc(50% - 395.5px);
+    font-size: var(--font-size-3xl);
+    text-decoration: underline;
+    letter-spacing: -0.03em;
+    line-height: 121.5%;
+    font-weight: 500;
+    display: inline-block;
+    width: 174px;
+    height: 20px;
+}
+
+.pengalaman {
+    position: absolute;
+    top: 676px;
+    left: 0;
+    width: 791px;
+    height: 522px;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--main-black);
+    font-family: var(--font-inter);
+}
+
+.jurusan,
+.smk {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 181px);
+    letter-spacing: -0.03em;
+    line-height: 121.5%;
+}
+
+.jurusan {
+    top: 32px;
+    left: calc(50% - 161px);
+}
+
+.pendidikan1 {
+    position: absolute;
+    top: 114px;
+    left: 0;
+    width: 362px;
+    height: 54px;
+}
+
+.jurusan1,
+.pt {
+    position: absolute;
+    left: calc(50% - 204px);
+}
+
+
+.jurusan1,
+.pt {
+    top: 0;
+    letter-spacing: -0.03em;
+    line-height: 121.5%;
+}
+
+.jurusan1 {
+    top: 32px;
+    left: calc(50% - 184px);
+}
+
+.pendidikan2 {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    width: 408px;
+    height: 54px;
+}
+
+.study {
+    position: absolute;
+    top: 3px;
+    left: calc(50% - 204px);
+    font-size: var(--font-size-3xl);
+    text-decoration: underline;
+    letter-spacing: -0.03em;
+    line-height: 121.5%;
+    font-weight: 500;
+}
+
+.pendidikan {
+    position: absolute;
+    top: 1226px;
+    left: 0;
+    width: 408px;
+    height: 178px;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--main-black);
+    font-family: var(--font-inter);
+}
