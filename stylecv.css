@@ -1,0 +1,92 @@
+#areautama { 
+    padding: 0 40px;
+    background: papayawhip;
+}
+
+#lembarcv { 
+    width: 90%;
+    max-width: 800px;
+    background: papayawhip;
+    margin: 30px auto;
+}
+
+.detaillembarcv {  
+    padding: 25px 15px;
+    border-bottom: 2px solid #cf8a05;
+    border-top: 2px solid #cf8a05;
+    background: papayawhip;
+}
+
+#name {
+    width: 100%;
+    margin-left: 0%;
+}
+
+#name h1 { 
+    font-size: 40px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    width: 70%;
+}
+
+header {
+    background-color: rgb(185, 122, 28);
+    padding: 30px;
+    text-align: left;
+    color: white;
+    width: auto;
+    display: flex;
+}
+
+body {
+    background-size: auto;
+    background-color: whitesmoke;
+    width: 100%;
+}
+
+#contactDetails { 
+   float: right;
+   width: 40%;
+
+}
+#contactDetails ul {
+    list-style-type: none;
+    font-size: 0.9em;
+    margin-top: 0;
+}
+#contactDetails ul li {
+    margin-bottom: 3px;
+    color: #444;
+}
+
+.judul {
+    float: left;
+    width: 25%;
+}
+.isi {
+    float: right;
+    width: 72.5%;
+}
+.judul h1 {
+    font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 1.5em;
+    color: #cf8a05;
+}
+
+.clear {
+    clear: both;
+}
+
+.border {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(250, 204, 131);
+}
+
+.tahun {
+    font-size: 0.8em;
+    font-style: italic;
+    margin-bottom: 3px;
+}
