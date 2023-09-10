@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Space+Mono&display=swap");
+
+* {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-family: "Space Mono", monospace;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+header,
+article {
+  box-sizing: border-box;
+  padding: 2rem;
+}
+
+header > nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+  width: 100vw;
+}
+
+ul {
+  list-style: none;
+}
+
+li a {
+  margin: 0 1rem;
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+}
+
+li a.active {
+  color: red;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+button {
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 0.6rem;
+  cursor: pointer;
+}
+
+h5,
+h6 {
+  margin: 1rem 0;
+}
+
+/* utillity classes */
+/* typhogrpahy */
+.red-text {
+  font-size: inherit;
+  color: red;
+}
+
+.white-text {
+  font-size: inherit;
+  color: white;
+}
+
+/* layout */
+.red-background {
+  background-color: red;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* specifc styles */
+
+#self-wrapper {
+  height: 100%;
+  position: relative;
+}
+
+#self-wrapper #brush-bg {
+  width: 80rem;
+  position: absolute;
+  left: -15rem;
+  top: 15rem;
+  z-index: -100;
+  object-fit: contain;
+}
+
+#self-wrapper img {
+  width: 100%;
+  height: 100%;
+  filter: grayscale(100%);
+  object-fit: cover;
+}
+
+#home {
+  height: calc(100vh - 7rem);
+  padding: 0 8rem;
+  padding-bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./public/images/me.jpg");
+  background-repeat: no-repeat;
+}
+
+#summary {
+  margin: 0 2rem;
+  width: 50%;
+}
+
+#about {
+  background: repeating-linear-gradient(
+    90deg,
+    #adaeb1c7,
+    #e7e7e7 1px,
+    #e7e7e7 15rem
+  );
+  background-color: ;
+  height: 100vh;
+}
