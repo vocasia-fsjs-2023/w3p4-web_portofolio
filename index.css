@@ -13,10 +13,17 @@ body {
   overflow-x: hidden;
 }
 
+main {
+  width: 100%;
+  scroll-snap-type: y mandatory;
+  height: 100vh;
+}
+
 header,
 article {
   box-sizing: border-box;
   padding: 2rem;
+  scroll-snap-align: center;
 }
 
 header > nav {
@@ -62,7 +69,6 @@ h6 {
 /* utillity classes */
 /* typhogrpahy */
 .red-text {
-  font-size: inherit;
   color: red;
 }
 
@@ -80,6 +86,48 @@ h6 {
   text-transform: uppercase;
 }
 
+.text-inherit {
+  font-size: inherit;
+}
+
+.text-overline {
+  font-size: 0.8rem;
+  margin: 0;
+  opacity: 0.8;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+.list {
+  flex-basis: 50%;
+}
+
+.list h2 {
+  font-size: 20px;
+  margin: 2rem 0;
+  font-weight: 700;
+}
+
+.list-card {
+  margin-bottom: 2rem;
+  background-color: #c0c0c0;
+  padding: 1rem;
+  box-sizing: border-box;
+  text-align: start;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.2);
+}
+
+.list-card h3 {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  font-weight: 900;
+}
+
+.list-card p {
+  margin: 0.5rem 0;
+}
+
 /* specifc styles */
 
 #self-wrapper {
@@ -88,10 +136,10 @@ h6 {
 }
 
 #self-wrapper #brush-bg {
-  width: 80rem;
+  width: 100rem;
   position: absolute;
-  left: -15rem;
-  top: 15rem;
+  left: -25rem;
+  top: 20rem;
   z-index: -100;
   object-fit: contain;
 }
@@ -123,10 +171,18 @@ h6 {
 #about {
   background: repeating-linear-gradient(
     90deg,
-    #adaeb1c7,
-    #e7e7e7 1px,
-    #e7e7e7 15rem
+    #adadadc7,
+    #f3f3f3 1px,
+    #eeeeee 15rem
   );
-  background-color: ;
-  height: 100vh;
+  min-height: 100vh;
+  padding: 4rem 8rem;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  text-align: center;
+}
+
+#ed {
+  display: flex;
 }
