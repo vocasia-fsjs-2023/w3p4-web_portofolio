@@ -1,0 +1,95 @@
+body {
+    font-family:'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FAF0E6;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color:#352F44;
+    color: white;
+}
+
+.contact-info a[href^="mail"] {
+    color: #8CABFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info a[href^="https://www.linkedin.com"] {
+    color: #8CABFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.profile-image img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.header-text {
+    text-align: center;
+}
+.skills {
+    background-color: #5C5470;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.skills h2 {
+    color: white;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.skills-list li {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background-color: #352F44;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 14px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+.skills-list li:hover {
+    background-color: #8CABFF;
+}
+.skills-list li span {
+    display: block;
+}
+.contact-info, .about-me, .experience, .education, .certificates {
+    background-color: #5C5470;
+    margin: 20px;
+    color:#FAF0E6;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    color: #FAF0E6;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 10px;
+}
