@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+main {
+    text-align: center;
+}
+
+h1, h3, h4 {
+    color: #333;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+p, ol, ul {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+section {
+    text-align: left;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+ol, ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+    position:relative;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+footer p {
+    margin: 0;
+}
+
+section:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+h3, h4, b {
+    color: #333;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+ul li:before {
+    content: "\2022";
+    color: #007bff;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+h3, h4 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+code {
+    background-color: #f8f8f8;
+    padding: 2px 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+
+img {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer {
+    padding-top: 10px;
+}
+
+h1 {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+body {
+    padding-top: 40px;
+}
+
+section {
+    border-radius: 8px;
+}
